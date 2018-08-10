@@ -34,5 +34,9 @@ def sum_array(int)
 end
 
 def add_s(array)
-  
+  array.each_with_index{|element, index|
+    if index != 1
+      element << "s"
+    end
+  }
 end
