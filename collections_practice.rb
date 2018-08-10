@@ -19,3 +19,8 @@ end
 def reverse_array(int)
   int.reverse
 end
+
+def kesha_maker(str)
+  kesha_wrds = []
+  str.each {|word| word[3] = "$"} << kesha_wrds
+end
