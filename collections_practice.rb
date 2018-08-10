@@ -22,5 +22,9 @@ end
 
 def kesha_maker(str)
   kesha_wrds = []
-  str.each {|word| word[2] = "$"} 
+  str.each {|word| word[2] = "$"}
+end
+
+def find_a(str)
+  str.select{|word| word.start_with?("a")}
 end
