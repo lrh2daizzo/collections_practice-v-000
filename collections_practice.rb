@@ -22,5 +22,5 @@ end
 
 def kesha_maker(str)
   kesha_wrds = []
-  str.each {|word| word[3] = "$"} << kesha_wrds
+  str.each {|word| word[2] = "$"} << kesha_wrds
 end
